@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Users/kotakagi/Documents/work/dev/ghe/ncaptcha/ws'
+let g:netrw_dirhist_2='/Users/kotakagi/Documents/work/dev/chef/counter-chef-pipeline/environments'
+let g:netrw_dirhist_3='/Users/kotakagi/Documents/work/dev/ghe/ncaptcha/id-broker/screwdriver'
+let g:netrw_dirhist_4='/Users/kotakagi/Documents/work/dev/ghe/ncaptcha/ws/screwdriver'
