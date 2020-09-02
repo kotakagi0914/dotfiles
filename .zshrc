@@ -33,10 +33,9 @@ alias vi='vim'
 alias d='docker'
 alias dc='docker-compose'
 alias kc='kubectl'
-alias bc='bpctl'
-alias work='cd ~/Documents/work'
-alias dev='cd ~/Documents/work/dev'
 alias ldconfig='sudo update_dyld_shared_cache'
+alias ..="cd .."
+alias ...="cd ..."
 # git alias
 # check with ~/.gitconfig
 alias gst='git st' # status
