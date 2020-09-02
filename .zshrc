@@ -37,6 +37,17 @@ alias bc='bpctl'
 alias work='cd ~/Documents/work'
 alias dev='cd ~/Documents/work/dev'
 alias ldconfig='sudo update_dyld_shared_cache'
+# git alias
+# check with ~/.gitconfig
+alias gst='git st' # status
+alias gco='git co' # checkout
+alias gcm='git cm' # commit
+alias gad='git ad' # add
+alias gdf='git df' # df
+alias glo='git lo' # log
+alias gbr='git br' # branch
+alias gpu='git pu' # push
+alias gpl='git pl' # pull
 
 # setopt
 # ディレクトリ名の入力のみで移動する 
