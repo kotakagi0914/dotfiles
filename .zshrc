@@ -7,7 +7,7 @@ zstyle ':vcs_info:*' formats "%F{cyan}%c%u[%b]%f"
 zstyle ':vcs_info:*' actionformats '[%b|%a]'
 precmd () { vcs_info }
 # RPROMPT=$RPROMPT'${vcs_info_msg_0_}' 
-PROMPT='%{${fg[white]}%}[%n@localhost %10c] ${vcs_info_msg_0_} %{${fg[red]}%}%(?..[%?] )%{${reset_color}%}
+PROMPT='%{${fg[white]}%}[%n@localhost %10c] (%D{%Y/%m/%f} %D{%T}) ${vcs_info_msg_0_} %{${fg[red]}%}%(?..[%?] )%{${reset_color}%}
 $ '
 # 色を使用出来るようにする
 autoload -Uz colors
