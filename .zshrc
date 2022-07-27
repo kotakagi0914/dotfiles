@@ -35,7 +35,7 @@ alias dc='docker-compose'
 alias kc='kubectl'
 alias ldconfig='sudo update_dyld_shared_cache'
 alias ..="cd .."
-alias ...="cd ..."
+alias ...="cd ../.."
 # git alias
 # check with ~/.gitconfig
 alias gst='git st' # status
@@ -81,7 +81,7 @@ export LUAJIT_INC="`brew --cellar luajit`/2.0.5/include/luajit-2.0"
 
 # for golang
 export GOROOT="/usr/local/go"
-export GOPATH="$HOME/Documents/work/dev/go"
+export GOPATH="$HOME/Documents/dev/go"
 export GOBIN="$GOPATH/bin"
 export PATH="/usr/local/go/bin:$GOBIN:$PATH"
 export GO15VENDOREXPERIMENT=1
