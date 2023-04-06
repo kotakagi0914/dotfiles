@@ -1,0 +1,21 @@
+{
+    "bracketPairColorizer.depreciation-notice": false,
+    "editor.tabSize": 2,
+    "go.toolsManagement.autoUpdate": true,
+    "markdown-preview-enhanced.previewTheme": "monokai.css",
+    "terminal.external.osxExec": "iTerm2.app",
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "terminal.integrated.scrollback": 1000000000000,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "j"],
+            "after": ["<Esc>"]
+        }
+    ],
+    "vsicons.dontShowNewVersionMessage": true,
+    "window.zoomLevel": 2,
+    "workbench.colorCustomizations" : {
+        "terminal.foreground" : "#00FD61",
+    },
+    "workbench.iconTheme": "vscode-icons"
+}
